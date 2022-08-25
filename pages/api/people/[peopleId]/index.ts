@@ -1,5 +1,5 @@
 import { public_People } from "@prisma/client";
-import { getPeople } from "../../../db/people";
+import { getPeople } from "../../../../db/people";
 
 const Get = async (
   req: { query: { peopleId: string } },

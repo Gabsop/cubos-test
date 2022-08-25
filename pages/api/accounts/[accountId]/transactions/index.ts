@@ -3,11 +3,11 @@ import {
   public_Transaction,
   transactiontype,
 } from "@prisma/client";
-import { changeBalance, getAccount } from "../../../../db/accounts";
+import { changeBalance, getAccount } from "../../../../../db/accounts";
 import {
   createTransaction,
   getTransactions,
-} from "../../../../db/transactions";
+} from "../../../../../db/transactions";
 
 const transactions = async (
   req: {

@@ -1,5 +1,5 @@
 import { public_Account } from "@prisma/client";
-import { createAccount, getAccounts } from "../../../db/accounts";
+import { createAccount, getAccounts } from "../../../../db/accounts";
 
 const accounts = async (
   req: {

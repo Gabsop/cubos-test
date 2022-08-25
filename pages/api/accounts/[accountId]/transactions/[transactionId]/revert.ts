@@ -1,9 +1,9 @@
 import { public_Transaction } from "@prisma/client";
-import { changeBalance } from "../../../../../db/accounts";
+import { changeBalance } from "../../../../../../db/accounts";
 import {
   createTransaction,
   getTransaction,
-} from "../../../../../db/transactions";
+} from "../../../../../../db/transactions";
 
 const revert = async (
   req: {

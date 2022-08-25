@@ -1,5 +1,5 @@
-import { getAccounts } from "../../../db/accounts";
-import { getCards } from "../../../db/cards";
+import { getAccounts } from "../../../../db/accounts";
+import { getCards } from "../../../../db/cards";
 import { cardtype, public_Card } from "@prisma/client";
 
 export default async function Get(

@@ -1,6 +1,6 @@
 import { cardtype, public_Account, public_Card } from "@prisma/client";
-import { getAccount } from "../../../db/accounts";
-import { createCard, getCardByType, getCards } from "../../../db/cards";
+import { getAccount } from "../../../../db/accounts";
+import { createCard, getCardByType, getCards } from "../../../../db/cards";
 
 const cards = async (
   req: {

@@ -1,5 +1,5 @@
 import { public_People } from "@prisma/client";
-import { createPeople } from "../../db/people";
+import { createPeople } from "../../../db/people";
 
 export default async function Post(
   req: { body: { name: string; document: string; password: string } },

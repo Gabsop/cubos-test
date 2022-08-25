@@ -1,5 +1,5 @@
 import { public_Account } from "@prisma/client";
-import { getAccount } from "../../../db/accounts";
+import { getAccount } from "../../../../db/accounts";
 
 const balance = async (
   req: { query: { accountId: string }; method: string },
